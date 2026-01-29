@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Page de personal branding — positionnement, preuves, offres, projets, contact." />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Ton Nom — Personal Branding" />
+  <meta property="og:description" content="Positionnement clair. Preuves. Offres. Contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/img/og-image.png" />
+  <meta property="og:locale" content="fr_FR" />
+
+  <title>Ton Nom — Personal Branding</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Retour en haut">
+        <span class="brand__mark">◆</span>
+        <span class="brand__text">Ton Nom</span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__toggleBars" aria-hidden="true"></span>
+          <span class="sr-only">Ouvrir le menu</span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#positionnement">Positionnement</a></li>
+          <li><a href="#preuves">Preuves</a></li>
+          <li><a href="#offres">Offres</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <button id="themeBtn" class="btn btn--ghost" type="button" aria-label="Basculer le thème">
+          Thème
+        </button>
+        <a class="btn btn--primary" href="#contact">Parlons</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="top" class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="badge">Personal Branding • Impact • Exécution</p>
+
+          <h1>
+            Je transforme <span class="em">[ton sujet]</span> en <span class="em">résultats mesurables</span>.
+          </h1>
+
+          <p class="hero__subtitle">
+            <strong>Positionnement :</strong> J’aide <strong>[ta cible]</strong> à obtenir <strong>[résultat]</strong>
+            grâce à <strong>[ton approche]</strong>.
+          </p>
+
+          <div class="hero__kpis">
+            <div class="kpi">
+              <div class="kpi__value">+XX%</div>
+              <div class="kpi__label">KPI 1 (ex: conversion)</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__value">-YY%</div>
+              <div class="kpi__label">KPI 2 (ex: coûts/délai)</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__value">ZZ</div>
+              <div class="kpi__label">KPI 3 (ex: projets livrés)</div>
+            </div>
+          </div>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#offres">Voir mes offres</a>
+            <button class="btn btn--ghost" id="copyEmailBtn" type="button" data-email="ton.email@domaine.com">
+              Copier mon email
+            </button>
+          </div>
+
+          <div class="hero__links">
+            <a href="https://www.linkedin.com/in/TONPROFIL" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span aria-hidden="true">•</span>
+            <a href="https://github.com/TONPSEUDO" target="_blank" rel="noreferrer">GitHub</a>
+            <span aria-hidden="true">•</span>
+            <a href="assets/img/CV.pdf" target="_blank" rel="noreferrer">CV</a>
+          </div>
+        </div>
+
+        <aside class="hero__card" aria-label="Carte de profil">
+          <div class="profile">
+            <div class="profile__avatar" aria-hidden="true">
+              <!-- Option: remplace par une image <img> -->
+              <span>TN</span>
+            </div>
+            <div>
+              <p class="profile__name">Ton Nom</p>
+              <p class="profile__role">[Ton rôle] • [Secteur]</p>
+            </div>
+          </div>
+
+          <div class="card card--soft">
+            <h2 class="h3">Signature</h2>
+            <p>
+              Mon avantage : <strong>clarifier</strong> la stratégie, <strong>industrialiser</strong> l’exécution,
+              et <strong>prouver</strong> l’impact.
+            </p>
+          </div>
+
+          <div class="card">
+            <h2 class="h3">Disponibilité</h2>
+            <p>
+              <span class="pill">Freelance</span>
+              <span class="pill">Advisory</span>
+              <span class="pill">Conférences</span>
+            </p>
+            <p class="muted">
+              Réponse sous 24–48h. Discussions cadrées, orientées ROI.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- POSITIONNEMENT -->
+    <section id="positionnement" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Positionnement</h2>
+          <p class="muted">Clarté, cohérence, crédibilité — le trio qui te rend recommandable.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card">
+            <h3>Problème que je résous</h3>
+            <p>[Décris le pain business : ex. pipeline instable, delivery lent, churn, CAC…]</p>
+          </div>
+          <div class="card">
+            <h3>Approche</h3>
+            <p>[Ton mécanisme : frameworks, process, playbook, coaching, exécution…]</p>
+          </div>
+          <div class="card">
+            <h3>Différenciation</h3>
+            <p>[Ton angle unique : expertise, secteur, méthode, combinaison rare…]</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <p class="callout__title">One-liner</p>
+          <p class="callout__text">
+            “J’aide <strong>[cible]</strong> à <strong>[résultat mesurable]</strong> en <strong>[approche]</strong>,
+            grâce à <strong>[preuves]</strong>.”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREUVES -->
+    <section id="preuves" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Preuves</h2>
+          <p class="muted">Pas de storytelling vide : des signaux forts, concrets, vérifiables.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Case study #1</h3>
+            <p class="muted">Contexte → action → impact.</p>
+            <ul class="list">
+              <li><strong>Contexte :</strong> [situation]</li>
+              <li><strong>Action :</strong> [ce que tu as fait]</li>
+              <li><strong>Impact :</strong> [KPI]</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Case study #2</h3>
+            <p class="muted">Contexte → action → impact.</p>
+            <ul class="list">
+              <li><strong>Contexte :</strong> [situation]</li>
+              <li><strong>Action :</strong> [ce que tu as fait]</li>
+              <li><strong>Impact :</strong> [KPI]</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="testimonials">
+          <div class="testimonial">
+            <p>“[Témoignage court, orienté résultats.]”</p>
+            <p class="muted">— Nom, Rôle, Entreprise</p>
+          </div>
+          <div class="testimonial">
+            <p>“[Témoignage court, orienté collaboration et impact.]”</p>
+            <p class="muted">— Nom, Rôle, Entreprise</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFRES -->
+    <section id="offres" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Offres</h2>
+          <p class="muted">Des packs lisibles, un scope net, une valeur assumée.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card card--pricing">
+            <h3>Audit & Roadmap</h3>
+            <p class="price">€€€</p>
+            <ul class="list">
+              <li>Diagnostic</li>
+              <li>Priorités & quick wins</li>
+              <li>Plan 30/60/90 jours</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="#contact">Cadrer un audit</a>
+          </div>
+
+          <div class="card card--pricing card--highlight">
+            <h3>Execution Sprint</h3>
+            <p class="price">€€€€</p>
+            <ul class="list">
+              <li>Objectif KPI</li>
+              <li>Livrables concrets</li>
+              <li>Rituels & gouvernance</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="#contact">Lancer un sprint</a>
+          </div>
+
+          <div class="card card--pricing">
+            <h3>Advisory</h3>
+            <p class="price">€€</p>
+            <ul class="list">
+              <li>1–2 sessions / mois</li>
+              <li>Décisions & arbitrages</li>
+              <li>Feedback direct</li>
+            </ul>
+            <a class="btn btn--primary btn--full" href="#contact">Demander un créneau</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projets</h2>
+          <p class="muted">Une vitrine claire : ce que tu as livré, et pourquoi ça compte.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filtres projets">
+          <button class="chip is-active" data-filter="all" type="button">Tous</button>
+          <button class="chip" data-filter="product" type="button">Produit</button>
+          <button class="chip" data-filter="data" type="button">Data</button>
+          <button class="chip" data-filter="growth" type="button">Growth</button>
+        </div>
+
+        <div class="grid grid--3" id="projectsGrid">
+          <article class="card project" data-tags="product">
+            <h3>Projet A</h3>
+            <p class="muted">[1 phrase : problème + impact]</p>
+            <p><strong>Stack :</strong> [outils]</p>
+            <div class="project__links">
+              <a href="#" target="_blank" rel="noreferrer">Démo</a>
+              <a href="#" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+
+          <article class="card project" data-tags="data">
+            <h3>Projet B</h3>
+            <p class="muted">[1 phrase : problème + impact]</p>
+            <p><strong>Stack :</strong> [outils]</p>
+            <div class="project__links">
+              <a href="#" target="_blank" rel="noreferrer">Case</a>
+              <a href="#" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+
+          <article class="card project" data-tags="growth">
+            <h3>Projet C</h3>
+            <p class="muted">[1 phrase : problème + impact]</p>
+            <p><strong>Stack :</strong> [outils]</p>
+            <div class="project__links">
+              <a href="#" target="_blank" rel="noreferrer">Lecture</a>
+              <a href="#" target="_blank" rel="noreferrer">Repo</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p class="muted">Un échange court, cadré, orienté décision. Si c’est flou, on le rend net.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card">
+            <h3>Coordonnées</h3>
+            <p class="muted">Le plus rapide : email.</p>
+
+            <div class="contact__row">
+              <span class="label">Email</span>
+              <span class="value">
+                <a href="mailto:ton.email@domaine.com">ton.email@domaine.com</a>
+              </span>
+            </div>
+
+            <div class="contact__row">
+              <span class="label">LinkedIn</span>
+              <span class="value">
+                <a href="https://www.linkedin.com/in/TONPROFIL" target="_blank" rel="noreferrer">TONPROFIL</a>
+              </span>
+            </div>
+
+            <div class="contact__row">
+              <span class="label">Calendly</span>
+              <span class="value">
+                <a href="https://calendly.com/TONCALENDLY/intro" target="_blank" rel="noreferrer">Réserver un créneau</a>
+              </span>
+            </div>
+          </div>
+
+          <form class="card form" id="contactForm">
+            <h3>Message rapide</h3>
+            <p class="muted">Ça ouvre un email pré-rempli. Pas de backend nécessaire.</p>
+
+            <label>
+              Nom
+              <input name="name" type="text" autocomplete="name" placeholder="Ton nom" required />
+            </label>
+
+            <label>
+              Sujet
+              <input name="subject" type="text" placeholder="Ex: Audit / Mission / Opportunité" required />
+            </label>
+
+            <label>
+              Message
+              <textarea name="message" rows="5" placeholder="Contexte + objectif + timing + KPI cible" required></textarea>
+            </label>
+
+            <button class="btn btn--primary btn--full" type="submit">Ouvrir l’email</button>
+            <p class="muted small" id="formHint" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="muted">© <span id="year"></span> Ton Nom. Built for clarity & impact.</p>
+      <a class="muted" href="#top">Retour en haut</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
